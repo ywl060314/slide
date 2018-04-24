@@ -5,7 +5,178 @@
   <title>Document</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!-- meta:vp -->
   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="setting.css">
+  <style>
+body,p,ul,li,a,img {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: \5FAE\8F6F\96C5\9ED1;
+  text-decoration: none;
+}
+/*导航部分*/
+.header {
+  height: 100px;
+}
+.logo {
+  height: 100px;
+  background-color: #293352; 
+  opacity: 1;
+}
+.logo img {
+  padding-top: 10px;
+}
+.navbar {
+  border: 0;
+}
+.top {
+  height: 50px;
+  background-color: #5f6169;
+  opacity: 1;
+}
+.bottom {
+  position: relative;
+  height: 50px;
+  margin: 0 -15px;
+  background-color: #293352;
+  opacity: 1;
+}
+.top ul {
+  float: left;
+}
+.nav-pills li a {
+  padding: 0 25px;
+  border-radius: 0px;
+  line-height: 50px;
+  font-size: 16px;
+  color:#fff;
+}
+.nav-pills > li + li {
+  margin-left: 0px;
+}
+.top-nav li a:hover,
+.top-nav li a:focus {
+  border: 0;
+  color: #000;
+  background-color: #fff;
+}
+
+.search {
+  float: right;
+}
+.search-inp {
+  padding: 5px;
+}
+.search-btn {
+  background: #ddd;
+}
+.bottom-nav {
+  position: absolute;
+  left: 0;
+}
+.bottom-nav li a {
+  padding: 0 35px;
+}
+.bottom-nav li a:hover,
+.bottom-nav li a:focus,
+.bottom-nav li a:active {
+  color: #fff;
+  border: 0;
+  background-color: #4b5da5;
+  opacity: .85;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #3d4f87;
+    border: 0;
+}
+.dm-1 {
+  width: 100%;
+  margin: 0;
+  background: #3d4f87;
+  opacity: .85;
+  border-radius: 0;
+}
+.dm-1 li{
+  text-align: center;
+}
+/*banner部分*/
+.md-part {
+  height: 600px;
+  padding: 0;
+  position: relative;
+}
+.banner {
+  height: 600px;
+  position: absolute;
+  top: 0;
+}
+.slide {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.box {
+  width: 420px;
+  height: 140px;
+  position: absolute;
+  left: 15%;
+  bottom: 60px;
+  background: #1C1C1F;
+  opacity: .85;
+  padding-top: 5px;
+}
+.box a h3,.box a p {
+  line-height: 28px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.box a h3 {
+  text-align: center;
+}
+.box a p {
+  text-indent: 2em;
+}
+.slide .carousel-caption a {
+  text-decoration: none;
+  color: #fff;
+}
+.dot {
+  position: absolute;
+  bottom: 10px;
+}
+.dot li {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  border-color: #000;
+}
+.dot .active {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  background: #888;
+}
+.glyphicon {
+  border: 2px;
+  border-color: #000;
+  color: #fff;
+  opacity: .85;
+}
+
+/*页脚部分*/
+.footer{
+  height: 80px;
+  background: #1C1C1F;
+  padding-top: 20px;
+  z-index: 100;
+}
+.footer p{
+  text-align: center;
+  color: #fff;
+  line-height: 23px;
+}
+  </style>
 </head>
 <body>
   <!-- 导航部分 -->
